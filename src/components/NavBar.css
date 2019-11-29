@@ -29,6 +29,12 @@
 
   }
 
+  .author-img {
+    background-color: green;
+  }
+
+
+
   @media screen and (max-height: 450px) {
     .navigation {padding-top: 15px;}
     .navigation a {font-size: 18px;}
