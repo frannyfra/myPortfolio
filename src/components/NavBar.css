@@ -5,7 +5,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: yellow;
+    background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -43,6 +43,7 @@
 .email {
   display: block;
   font-size: 12px;
+  color: white;
 }
 
 
