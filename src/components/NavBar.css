@@ -1,0 +1,35 @@
+.navigation {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navigation a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .navigation a:hover {
+    color: #f1f1f1;
+  }
+
+  #nav li,
+  #sub-nav li{
+    
+    list-style-type: none;
+
+  }
+
+  @media screen and (max-height: 450px) {
+    .navigation {padding-top: 15px;}
+    .navigation a {font-size: 18px;}
+  }
