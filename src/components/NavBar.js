@@ -15,8 +15,8 @@ class NavBar extends React.Component{
 
         <div className="text-center">
           <img src={logo} className="logo" alt="full name initials" />
-          <div className="author-img"><img src={profilePic} /></div>
-          <h3 id="full-name">Francesca De Laurentis</h3>
+          <img src={profilePic} className="author-img"/>
+          {/* <h3 id="full-name">Francesca De Laurentis</h3> */}
           <span className="email">francescadelaurentis1987@gmail.com</span>
         </div>
     
