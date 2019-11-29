@@ -11,6 +11,9 @@ class NavBar extends React.Component {
 		return (
         <div className="navigation">
         <img src={logo} className="logo" alt="full name initials" />
+
+
+        
         
         <div className="navigation-sub">
           <ul id="nav">
