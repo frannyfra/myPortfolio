@@ -1,7 +1,10 @@
 .introduction {
-    margin-left: 300px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    height: 100vh;
-    background-image: url(../Assets/pens.jpg) ;
+  margin: 0px 0px 0px 300px; /* Same as the width of the sidenav */
+  font-size: 0.9em; /* Increased text to enable scrolling */
+  /* padding: 0px 10px; */
+  height: 100vh;
+  background-image: url(../Assets/pens.jpg) ;
+  background-repeat: round;
+  opacity: 0.8;
+  filter: alpha(opacity=50)
   }

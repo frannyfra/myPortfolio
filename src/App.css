@@ -20,3 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
+
+h1 {
+  font-size: 2.5em;
+  margin: 0px;
+  padding-top: 70px;
+}
