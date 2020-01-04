@@ -9,7 +9,8 @@ body {
   background-size: cover; 
   opacity: 0.8; 
   filter: alpha(opacity=50); 
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   /* background-color: yellow; */
 }
 
@@ -20,5 +21,8 @@ body {
   /* justify-content: center; */
 }
 
-
+.arrow-down-router {
+  display: flex;
+  align-self: center;
+}
 
