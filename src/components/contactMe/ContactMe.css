@@ -36,9 +36,10 @@
 .arrow-up-router {
   display:flex;
   justify-content: flex-start;
-  margin-top: 0.4em;
-  margin-bottom: 4em;
+  /* margin-top: 0.4em;
+  margin-bottom: 4em; */
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .homepage-router {
