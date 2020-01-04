@@ -19,7 +19,7 @@ const Projects = () => {
       </Link>
 
       <section className="project-page">
-        <h1 className="my-projects">Projects</h1>
+        <h2 className="projects-title">Projects</h2>
         <hr className="line"/>
         <div className="project">
           <article className="project-item">
