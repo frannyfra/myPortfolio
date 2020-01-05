@@ -19,14 +19,10 @@ const Projects = () => {
       </Link>
 
       <section className="project-page">
-        {/* <h2 className="projects-title">Projects</h2> */}
         <hr className="line"/>
         <div className="project">
 
           <article className="project-item">
-            {/* <h3>
-              My Body Back
-            </h3> */}
             <img 
             className="project-image"
             src={require("../../Assets/myBodyBack.png")}
@@ -41,15 +37,13 @@ const Projects = () => {
             <div className="overlay">
               <div className="text">
                 <p>
-                A MVP built as part of the Founders&Coders' Tech for Better programme
+                <a href="https://mybodyback.netlify.com/" target="_blank" className="projects-link">My Body Back </a>
+                has been built as part of the Founders&Coders' Tech for Better programme
 
                 <br>
                 </br>
                 <br></br>
-                The app aims to provide support for people with experience of sexual assault. The app will encourage more people to go for a routine cervical screening
-                </p>
-                <p>
-                  Role: <br></br>UX/UI & developer<br></br>
+                The app aim is to provide support for people with experience of sexual assault encuraging them to go for a routine cervical screening
                 </p>
                 <a href="https://github.com/fac-17/My-Body-Back" target="_blank" className="github-link">
                   Go to Github
@@ -59,32 +53,29 @@ const Projects = () => {
           </article>
 
           <article className="project-item">
-            {/* <h3>
-              NomNom
-            </h3> */}
             <img 
             className="project-image"
             src={require("../../Assets/NomNom.png")}
             alt="project"
             ></img>
-            {/* <h3>
-              NomNom
-            </h3> */}
             <p>
 
             </p>
             <div className="overlay">
               <div className="text">
                 <p>
-                A MVP built as part of the Founders&Coders' student project
-
-                <br>
-                </br>
+                  <a href="https://nom-nom-fac.herokuapp.com/ " target="_blank" className="project-link">
+                    NonNom
+                  </a> 
+                    has been built as part of the 
+                  <a href="https://www.foundersandcoders.com/" target="_blank" className="projects-link">
+                    Founders&Coders'
+                  </a> 
+                  student project
+                  
                 <br></br>
-                Build a planning meal app that suggest a week-long meal plans with common ingredients and provides healthy options in order to reduce food waste.
-                </p>
-                <p>
-                  Role: <br></br>DevOps & developer<br></br>
+                <br></br>
+                The app is a meal planning that suggest a week-long meal plans with common ingredients and provides healthy options in order to reduce food waste
                 </p>
                 <a href="https://github.com/fac-17/NomNom" target="_blank" className="github-link">
                   Go to Github

@@ -10,6 +10,7 @@
 .arrow-down-router {
   display: flex;
   align-self: center;
+  color: black;
 }
  
 .github-link {
@@ -44,45 +45,46 @@
 
 .project {
   display: flex;
-  flex-direction: column;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  justify-items: center;
+  justify-content: space-around;
 }
 
 .project-item {
-  display: flex;
-  justify-content: center;
-  /* position: relative; */
-
+  position: relative;
 } 
 
 .project-image {
-  /* display: flex; */
-  justify-content: center;
-  display: block;
-  padding: 60px;
-  width: 35%;
-  height: auto;
+  margin: 45px; /* increase if want the images to slide down */
+  width: 65%;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-/* .overlay {
+.overlay {
   position: absolute;
-  bottom: 100%; 
+  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  background-color: #3a809e;
-  overflow: hidden;
-  width: 35%;
-  height:auto;
+  background-color: purple;
+  /* #3a809e; */
+  /* overflow: hidden; */
+  opacity: 0;
+  transition: 0.5s ease;
+  border-radius: 5px;
+
 }
 
-.project:hover .overlay {
-  bottom: 0;
-  height: 100%;
+.project-item:hover .overlay {
+  opacity: 0.9;
 }
 
 .text {
-  color: white;
+  color: #FFFAF0; 
   font-size: 20px;
+  /* font-weight: bold; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -90,5 +92,5 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-} */
+}
 
