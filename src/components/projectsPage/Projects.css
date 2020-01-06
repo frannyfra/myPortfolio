@@ -3,16 +3,24 @@
   padding: 0px 10px;
   display: flex;
   flex-direction: column;
-  background-color: 	#F5F5F5; 
+  background-color: #F5F5F5; 
 }
 
-.arrow-up-router,
-.arrow-down-router {
+.arrow-up-router {
   display: flex;
   align-self: center;
-  color: black;
 }
- 
+
+.arrow-down-router-fixed {
+  display: flex;
+  align-self: center;
+}
+
+.arrow-down-router {
+  position: fixed;
+  bottom: 10px;
+}
+
 .github-link {
   color: black;
   font-weight:bolder;

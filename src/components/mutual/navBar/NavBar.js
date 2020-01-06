@@ -13,7 +13,7 @@ const NavBar = () => {
 
         <div className="text-center">
           <img src={logo} className="logo" alt="full name initials" />
-          <img src={profilePic} className="author-img"/>
+          <img src={profilePic} className="author-img" alt="Smiling Francesca"/>
           {/* <h3 id="full-name">Francesca De Laurentis</h3> */}
           <span className="email">Francesca De Laurentis</span>
         </div>

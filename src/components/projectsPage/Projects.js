@@ -9,6 +9,7 @@ const Projects = () => {
     return (
     <section className="my-projects">
       <NavBar />
+      {/* <div className="arrow-up-router-fixed"> */}
       <Link to={{ pathname: "/" }} className="arrow-up-router">
         <img
           className="arrow-up"
@@ -17,6 +18,7 @@ const Projects = () => {
         >
         </img>
       </Link>
+      {/* </div> */}
 
       <section className="project-page">
         <hr className="line"/>
@@ -106,7 +108,7 @@ const Projects = () => {
         </div>
         <hr className="line"/>
       </section>
-     
+      {/* <div className="arrow-down-router-fixed"> */}
       <Link to={{ pathname: "/contact-me" }} className="arrow-down-router">
         <img
           className="arrow-down"
@@ -115,6 +117,7 @@ const Projects = () => {
         >
         </img>  
       </Link>
+      {/* </div> */}
     </section>
     )
 

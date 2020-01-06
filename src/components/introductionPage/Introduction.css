@@ -1,6 +1,7 @@
 body {
   background-color: 	#F5F5F5;
 }
+
 .introduction {
   margin: 0px 0px 0px 400px; /* Same as the width of the sidenav */
   font-size: 0.9em; /* Increased text to enable scrolling */
@@ -11,7 +12,6 @@ body {
   filter: alpha(opacity=50); 
   display: flex;
   flex-direction: column;
-  /* background-color: yellow; */
 }
 
 .introduction-description {
@@ -22,22 +22,15 @@ body {
   justify-content: center;
 }
 
-.arrow-down-router {
-  display: flex;
-  align-self: center;
-}
-
 .introduction-description__main {
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-   */
+  align-items: center;
   justify-content: center;
   width: 60%;
   /* height: 50%; */
   margin-left: 5rem;
-
-
+  margin-top: 10rem;
 }
 
 .introduction-description__main  p {
@@ -49,6 +42,22 @@ body {
 .introduction-description__main-greating  p{
   display: flex;
   align-self: center;
-  font-size: 5.5em;
+  font-size: 4.5em;
   font-weight: bold;
 }
+
+/* .arrow-down-router-fixed {
+  display: flex;
+  align-self: center;
+}
+
+.arrow-down-router {
+  position: fixed;
+  bottom: 10px;
+} */
+
+.arrow-down-router {
+  display:flex;
+  align-self: center;
+}
+

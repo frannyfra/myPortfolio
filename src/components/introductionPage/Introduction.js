@@ -2,6 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import { NavBar } from "../mutual/navBar/NavBar";
 import { Link } from "react-router-dom";
+import Typing from 'react-typing-animation';
 
 
 const Introduction = () => {
@@ -9,6 +10,7 @@ const Introduction = () => {
     <>
       <NavBar />
       <section className="introduction">
+        <Typing>
         <section className="introduction-description">
           <section className="introduction-description__main">
             <section className="introduction-description__main-greating">
@@ -20,7 +22,10 @@ const Introduction = () => {
           web-developer.<br></br>My passion is .......
           </p>
           </section>
+          
         </section>
+        </Typing>
+        <div className="arrow-down-router-fixed">
         <Link to={{ pathname: "/projects" }} className="arrow-down-router">
         <img
           className="arrow-down"
@@ -29,6 +34,7 @@ const Introduction = () => {
         >
         </img>  
       </Link>
+      </div>
       </section>
 
     </>
@@ -36,3 +42,5 @@ const Introduction = () => {
 };
 
 export { Introduction };
+
+

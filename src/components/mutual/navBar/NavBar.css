@@ -8,6 +8,9 @@
   background-color: black;
   overflow-x: hidden;
   padding-top: 65px;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.1em;
+  
 }
 
 .navigation a {
@@ -24,10 +27,8 @@
 
 #nav li,
 #sub-nav li{
-    
   list-style-type: none;
   line-height: 2em;
-
 }
 
 .author-img {
@@ -40,12 +41,13 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  }
+}
   
 .email {
   display: block;
   font-size: 12px;
   color: white;
+  padding-bottom: 2em;
 }
 
 @media screen and (max-height: 450px) {
@@ -53,3 +55,6 @@
   .navigation a {font-size: 18px;}
 }
 
+.text-center {
+  padding-left: 3em;
+}
