@@ -28,16 +28,11 @@ const Projects = () => {
             src={require("../../Assets/myBodyBack.png")}
             alt="project"
             ></img>
-            {/* <h3>
-              My Body Back
-            </h3>
-            <p>
-              React | Netlify | Lambda | Jest | Enzyme | Airtable | React-Swipeable
-            </p> */}
             <div className="overlay">
               <div className="text">
                 <p>
-                <a href="https://mybodyback.netlify.com/" target="_blank" className="projects-link">My Body Back </a>
+                <a href="https://mybodyback.netlify.com/" target="_blank" className="project-link">My Body Back </a>
+                <br></br>
                 has been built as part of the Founders&Coders' Tech for Better programme
 
                 <br>
@@ -64,12 +59,13 @@ const Projects = () => {
             <div className="overlay">
               <div className="text">
                 <p>
-                  <a href="https://nom-nom-fac.herokuapp.com/ " target="_blank" className="project-link">
-                    NonNom
-                  </a> 
+                  <a href="https://nom-nom-fac.herokuapp.com/ " target="_blank" className="project-link">NonNom</a> 
+                  <br></br>
                     has been built as part of the 
-                  <a href="https://www.foundersandcoders.com/" target="_blank" className="projects-link">
-                    Founders&Coders'
+                  <br></br>
+                  <a href="https://www.foundersandcoders.com/" target="_blank" className="project-link"> 
+                  Founders&Coders' 
+
                   </a> 
                   student project
                   

@@ -4,7 +4,7 @@ import './ContactMe.css';
 import download from '../../Assets/Cloud-storage-download.svg';
 import linkedIn from '../../Assets/Linkedin.svg';
 import github from '../../Assets/Github.svg';
-import ArrowUp from '../../Assets/Arrow-up.svg';
+import ArrowUp from '../../Assets/Arrow-up-blue.svg';
 import HomePage from '../../Assets/Logo.svg';
 
 const ContactMe = () => {
@@ -24,8 +24,10 @@ const ContactMe = () => {
           src={HomePage}
           alt="home to go back to the main page"
         >
-        </img>  
+        </img> 
+        {/* <p className="logo-sentence">Go to homepage</p>  */}
       </Link>
+      
         <div className="navigation-sub_links">
           <ul>
             <li>
@@ -38,6 +40,9 @@ const ContactMe = () => {
               <a href={require("../../Assets/DeLaurentisCV.pdf")} download="Francesca De Laurentis - CV"><img src={download} alt="cloud storage download" className="logos"/></a></li>
             <li className="logos">
               E-mail: francescadelaurentis1987@gmail.com
+            </li>
+            <li className="logos">
+              M-phone: +44 7840 060115 
             </li>
           </ul>
         </div>

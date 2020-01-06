@@ -11,10 +11,11 @@ const Introduction = () => {
       <section className="introduction">
         <section className="introduction-description">
           <section className="introduction-description__main">
-
-          {/* <h1> it is me</h1> */}
+            <section className="introduction-description__main-greating">
+              <p>Hello!.....</p>
+            </section>
           <p>
-          Hello,<br></br>I am Francesca.
+            I am Francesca.
           Italian girl and full-stack
           web-developer.<br></br>My passion is .......
           </p>

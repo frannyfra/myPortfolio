@@ -16,9 +16,10 @@ body {
 
 .introduction-description {
   display: flex;
+  /* flex-direction: column; */
   width: 100%;
   height: 100%;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .arrow-down-router {
@@ -26,3 +27,28 @@ body {
   align-self: center;
 }
 
+.introduction-description__main {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+   */
+  justify-content: center;
+  width: 60%;
+  /* height: 50%; */
+  margin-left: 5rem;
+
+
+}
+
+.introduction-description__main  p {
+  font-size: 22px;
+  /* font-weight: bold; */
+  line-height: 40px;
+}
+
+.introduction-description__main-greating  p{
+  display: flex;
+  align-self: center;
+  font-size: 5.5em;
+  font-weight: bold;
+}
