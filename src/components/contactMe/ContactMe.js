@@ -8,7 +8,7 @@ import ArrowUp from '../../Assets/Arrow-up-blue.svg';
 import HomePage from '../../Assets/Logo.svg';
 
 const ContactMe = () => {
-    return (
+  return (
     <section className="contact-me">
       <Link to={{ pathname: "/projects" }} className="arrow-up-router">
         <img
@@ -25,27 +25,26 @@ const ContactMe = () => {
           alt="home to go back to the main page"
         >
         </img> 
-        {/* <p className="logo-sentence">Go to homepage</p>  */}
       </Link>
       
-        <div className="navigation-sub_links">
-          <ul>
-            <li>
-              <a href="https://github.com/frannyfra" target="_blank"><img src={github} alt="github logo" className="logos"/></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/frannyfra/" target="_blank"><img src={linkedIn} alt="linkedin logo" className="logos"/></a>
-            </li>
-            <li>
-              <a href={require("../../Assets/DeLaurentisCV.pdf")} download="Francesca De Laurentis - CV"><img src={download} alt="cloud storage download" className="logos"/></a></li>
-            <li className="logos">
-              E-mail: francescadelaurentis1987@gmail.com
-            </li>
-            <li className="logos">
-              M-phone: +44 7840 060115 
-            </li>
-          </ul>
-        </div>
+      <div className="navigation-sub_links">
+        <ul>
+          <li>
+            <a href="https://github.com/frannyfra" target="_blank"><img src={github} alt="github logo" className="logos"/></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/frannyfra/" target="_blank"><img src={linkedIn} alt="linkedin logo" className="logos"/></a>
+          </li>
+          <li>
+            <a href={require("../../Assets/DeLaurentisCV.pdf")} download="Francesca De Laurentis - CV"><img src={download} alt="cloud storage download" className="logos"/></a></li>
+          <li className="logos">
+            E-mail: francescadelaurentis1987@gmail.com
+          </li>
+          <li className="logos">
+            M-phone: +44 7840 060115 
+          </li>
+        </ul>
+      </div>
     </section>
     )
 };

@@ -8,26 +8,25 @@
 }
 
 .navigation-sub_links {
-  background-color:  black;
-  /* #008cba;  */
-   /* #3a809e;   */
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40vw;
   height: 35vh;
   border-radius: 2.5%;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .navigation-sub_links ul{
   color: white;
   width: auto;
-  font-size: bold;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   list-style-type: none;
   line-height: 2.5em;
-  padding: 0px;
+  padding: 5em;
 } 
 
 .arrow-up-router {
@@ -43,15 +42,17 @@
   justify-content: flex-end; */
   margin-top: 5em;
   padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
  
-.logos:hover {
+/* .logos:hover {
   filter: invert(100%) url(#logos-filter);
-}
+} */
 
 .homepage-router:hover, 
 .arrow-up:hover,
-.arrow-down:hover {
+.arrow-down:hover,
+.logos:hover {
   filter: invert(0.4) sepia(0) hue-rotate(0deg) saturate(2) brightness(1);
 }
 

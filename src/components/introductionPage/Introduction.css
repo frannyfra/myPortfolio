@@ -16,48 +16,41 @@ body {
 
 .introduction-description {
   display: flex;
-  /* flex-direction: column; */
   width: 100%;
-  height: 100%;
+  height: 80%;
   justify-content: center;
 }
 
 .introduction-description__main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 60%;
-  /* height: 50%; */
   margin-left: 5rem;
   margin-top: 10rem;
 }
 
 .introduction-description__main  p {
   font-size: 22px;
-  /* font-weight: bold; */
   line-height: 40px;
+  font-family: 'Lato', sans-serif;
 }
 
-.introduction-description__main-greating  p{
+/* .introduction-description__main-greating  p{
   display: flex;
   align-self: center;
   font-size: 4.5em;
-  font-weight: bold;
-}
-
-/* .arrow-down-router-fixed {
-  display: flex;
-  align-self: center;
-}
-
-.arrow-down-router {
-  position: fixed;
-  bottom: 10px;
+  font-family: 'Fondamento', cursive; 
 } */
-
+.arrow-up-router,
 .arrow-down-router {
   display:flex;
   align-self: center;
 }
 
+.loop {
+  font-size: 4.5em;
+  font-family: 'Fondamento', cursive; 
+}
+
+/* 
+font-family: 'Fondamento', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
