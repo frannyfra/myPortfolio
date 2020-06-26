@@ -8,11 +8,7 @@ Here' s the look if you are curious and want to see how it looks: 
 
 https://frannyfra-myportfolio.netlify.app
 
-alternatevely clone it locally and run:
-```npm install```
-
-and after 
-```npm start```
-
+Alternatively clone it locally and run:
+```npm install``` and after ```npm start```
 
 Have fun!!!
