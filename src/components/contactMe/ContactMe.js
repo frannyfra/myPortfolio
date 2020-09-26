@@ -16,7 +16,7 @@ const ContactMe = () => {
           src={ArrowUp}
           alt="upwards arrow to move to project page"
         >
-        </img>  
+        </img>
       </Link>
       <Link to={{ pathname: "/" }} className="homepage-router">
         <img
@@ -24,29 +24,29 @@ const ContactMe = () => {
           src={HomePage}
           alt="home to go back to the main page"
         >
-        </img> 
+        </img>
       </Link>
-      
+
       <div className="navigation-sub_links">
         <ul>
           <li>
-            <a href="https://github.com/frannyfra" target="_blank"><img src={github} alt="github logo" className="logos"/></a>
+            <a href="https://github.com/frannyfra" target="_blank"><img src={github} alt="github logo" className="logos" /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/frannyfra/" target="_blank"><img src={linkedIn} alt="linkedin logo" className="logos"/></a>
+            <a href="https://www.linkedin.com/in/frannyfra/" target="_blank"><img src={linkedIn} alt="linkedin logo" className="logos" /></a>
           </li>
           <li>
-            <a href={require("../../Assets/DeLaurentisCV.pdf")} download="Francesca De Laurentis - CV"><img src={download} alt="cloud storage download" className="logos"/></a></li>
+            <a href={require("../../Assets/CVFrancescaDL.pdf")} download="Francesca De Laurentis - CV"><img src={download} alt="cloud storage download" className="logos" /></a></li>
           <li className="logos">
             E-mail: francescadelaurentis1987@gmail.com
           </li>
           <li className="logos">
-            M-phone: +44 7840 060115 
+            M-phone: +44 7840 060115
           </li>
         </ul>
       </div>
     </section>
-    )
+  )
 };
 
 export { ContactMe };
